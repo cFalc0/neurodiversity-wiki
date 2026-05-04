@@ -12,6 +12,12 @@ A community resource covering neurodiversity — the natural variation in human 
 - [[adhd/executive-dysfunction|Executive Dysfunction]] — The core mechanism behind ADHD: planning, initiation, working memory, and emotional regulation
 - [[adhd/rejection-sensitive-dysphoria|Rejection Sensitive Dysphoria]] — Emotional pain from perceived rejection
 
+## Dyslexia
+
+- [[dyslexia/what-is-dyslexia|What Is Dyslexia]] — Definition, prevalence, and how it actually presents — beyond the "letters backwards" myth
+- [[dyslexia/phonological-processing|Phonological Processing]] — The neurological mechanism at the core of dyslexia: how the brain maps sounds to symbols
+- [[dyslexia/dyslexia-in-adulthood|Dyslexia in Adulthood]] — Compensated dyslexia, late diagnosis, and navigating work and daily life
+
 ## Masking
 
 - [[masking/masking|Masking]] — Hiding neurodivergent traits to fit in

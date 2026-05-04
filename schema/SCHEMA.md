@@ -105,6 +105,7 @@ Use lowercase, hyphen-separated tags. Stick to this controlled vocabulary:
 | `coping` | Strategies and techniques |
 | `identity` | Self-understanding, diagnosis, community |
 | `neuronormativity` | Systemic and social pressure articles |
+| `dyslexia` | Dyslexia-specific content |
 
 ---
 
@@ -149,6 +150,10 @@ wiki/
 │   ├── common-adhd-traits.md
 │   ├── sensory-sensitivities.md
 │   └── time-blindness.md
+├── dyslexia/
+│   ├── what-is-dyslexia.md
+│   ├── phonological-processing.md
+│   └── dyslexia-in-adulthood.md
 └── coping-strategies/
     ├── self-advocacy.md
     ├── stimming.md
@@ -164,4 +169,29 @@ wiki/
 3. **Link** → add wikilinks to related articles
 4. **Tag** → apply tags from controlled vocabulary
 5. **Status** → mark draft → review → stable as confidence grows
-6. **Commit** → `git add . && git commit -m "topic: short description"`
+6. **Update index** → add new articles to `wiki/index.md` (this is the published homepage)
+7. **Commit** → `git add . && git commit -m "topic: short description"`
+8. **Publish** → merge to `main` and push — GH Actions deploys automatically
+
+---
+
+## Publishing
+
+This wiki is published via [Quartz 4](https://quartz.jzhao.xyz/) to GitHub Pages.
+
+| Setting | Value |
+|---------|-------|
+| Content directory | `wiki/` (non-default; configured via `--directory wiki` flag) |
+| Build command | `npx quartz build --directory wiki` |
+| Deploy trigger | Push to `main` branch |
+| Live URL | `https://cfalc0.github.io/neurodiversity-wiki` |
+| Deploy config | `.github/workflows/deploy.yml` |
+
+### Quartz-Specific Notes
+
+- **`wiki/index.md` is the site homepage** — always update it when adding new articles or sections
+- **Wikilinks work natively** — `[[article-name]]` and `[[folder/article|Display Text]]` both resolve correctly
+- **`status: draft` articles are hidden** — the `RemoveDrafts` plugin excludes them from the build; use this intentionally for in-progress work
+- **`aliases` generate redirects** — Quartz creates redirect pages automatically from frontmatter aliases
+- **`tags` are browsable** — all tags appear at `/tags/` on the live site; use the controlled vocabulary
+- **Folder pages are auto-generated** — each subfolder in `wiki/` gets a browsable index page listing its articles
