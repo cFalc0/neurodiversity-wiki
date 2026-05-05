@@ -10,6 +10,7 @@ A community resource covering neurodiversity — the natural variation in human 
 
 - [[adhd/common-adhd-traits|ADHD Traits]] — Common characteristics and experiences
 - [[adhd/executive-dysfunction|Executive Dysfunction]] — The core mechanism behind ADHD: planning, initiation, working memory, and emotional regulation
+- [[adhd/emotional-dysregulation|Emotional Dysregulation]] — Why ADHD emotions arrive faster and harder, and why they're so difficult to modulate
 - [[adhd/rejection-sensitive-dysphoria|Rejection Sensitive Dysphoria]] — Emotional pain from perceived rejection
 
 ## Dyslexia

@@ -96,7 +96,8 @@ Reality: Medication (stimulants or non-stimulants) can significantly reduce symp
 
 ## Related Concepts
 
-[[rejection-sensitive-dysphoria]] — emotional dysregulation linked to perceived rejection or criticism
+[[emotional-dysregulation]] — the neurological mechanism behind intense, fast-arriving emotional responses in ADHD
+[[rejection-sensitive-dysphoria]] — emotional dysregulation directed specifically at perceived rejection or criticism
 [[why-neurodivergent-people-overshare]] — impulsivity and self-disclosure as related ADHD traits
 [[masking]] — how ADHD traits get suppressed in social settings
 [[self-disclosure]] — deciding when and how to share an ADHD diagnosis
